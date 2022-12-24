@@ -1,0 +1,37 @@
+// import and using poppins google font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+// import bootstrap files
+@import './../node_modules/bootstrap/scss/bootstrap';
+
+// import font awesome
+$fa-font-path: './../node_modules/@fortawesome/fontawesome-free/webfonts/';
+
+// core styling file
+@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+
+// Solid + Brands + v4 reference
+@import './../node_modules/@fortawesome/fontawesome-free/scss/solid';
+
+@import './../node_modules/@fortawesome/fontawesome-free/scss/brands';
+
+@import './../node_modules/@fortawesome/fontawesome-free/scss/v4-shims';
+
+// import local scss files
+@import './navbar/navbar';
+@import './carousel/carousel';
+@import './featuredCards/featured-cards';
+@import './dailyDeals/daily-deals';
+@import './support/support';
+@import './subscribeForm/subscribe-form';
+@import './footer/footer';
+
+// custom scss code
+body {
+  background-color: #f6f6f6;
+  width: 100vw;
+  min-height: 100vh;
+}
+
