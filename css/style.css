@@ -24368,7 +24368,7 @@ readers do not read off random characters that represent icons */
   color: #5b5858;
   text-decoration: none;
 }
-.breadcrumb-area span > span a a:hover {
+.breadcrumb-area span > span a:hover {
   color: #a749ff;
 }
 .breadcrumb-area span > span span {
