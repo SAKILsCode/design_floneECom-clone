@@ -24375,10 +24375,122 @@ readers do not read off random characters that represent icons */
   margin: 0 15px;
 }
 
+.sidebar-style .sidebar-widget {
+  margin-top: 60px;
+}
+.sidebar-style .sidebar-widget .pro-sidebar-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+.sidebar-style .sidebar-widget .pro-sidebar-search-form {
+  position: relative;
+  margin-top: 30px;
+}
+.sidebar-style .sidebar-widget .pro-sidebar-search-form input {
+  width: 100%;
+  font-size: 14px;
+  height: 43px;
+  padding: 2px 55px 2px 18px;
+  color: #000;
+  border: 1px solid #efefef;
+  outline: none;
+  background: transparent none repeat scroll 0 0;
+  box-shadow: none;
+}
+.sidebar-style .sidebar-widget .pro-sidebar-search-form button {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-50%);
+  color: #a1a5aa;
+  border: none;
+  border-left: 1px solid #a1a5aa;
+  background: transparent none repeat scroll 0 0;
+}
+.sidebar-style .sidebar-widget .pro-sidebar-search-form button:hover {
+  color: #a749ff;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list {
+  margin-top: 30px;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: outside none none;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list ul li {
+  position: relative;
+  align-items: center;
+  padding: 0 0 15px;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list ul li button {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0 0 0 30px;
+  text-align: left;
+  text-transform: capitalize;
+  border: none;
+  background: none;
+  font-size: 14px;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list ul li button .checkmark {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #888;
+  border-radius: 3px;
+  background-color: #fff;
+  line-height: 20px;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-list ul li button:hover .checkmark {
+  border-color: #a749ff;
+  background-color: #a749ff;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-tags {
+  margin-top: 30px;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-tags ul {
+  margin: 0;
+  padding: 0;
+  list-style: outside none none;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-tags ul li {
+  display: inline-block;
+  margin: 0 10px 15px 0;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-tags ul li button {
+  line-height: 1;
+  display: inline-block;
+  padding: 9px 13px 12px;
+  text-transform: capitalize;
+  color: #424242;
+  border: none;
+  border-radius: 50px;
+  background: none;
+  background-color: #f6f6f6;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-tags ul li button:hover {
+  color: #fff;
+  background-color: #a749ff;
+}
+
 body {
   background-color: #ffffff;
   width: 100vw;
   min-height: 100vh;
+}
+
+.small-area {
+  margin: 50px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
